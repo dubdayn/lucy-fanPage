@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucy FanPage Information Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Lucy FanPage Information Form</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="info.html">Information Form</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <main>
+        <h1>Submission Form</h1>
+        <p>This is a place where you can enter all your Information</p>
+        <form action="/api/info" method="POST">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+             </div>
+             <div>
+            <label for="email">Email:</label>
+            <input type ="email" id="email" name="email" />
+            </div>
+            <div>
+            <label for="date-of-birth">Date Of Birth:</label>
+            <input type ="date" id="date-of-birth" name="date-of-birth" />
+            </div>
+            <div>
+            <label for="favorite-color">favorite-color:</label>
+            <input type ="color" id="favorite-color" name="favorite-color" />
+            </div>
+            <div>
+            <label for="lucky-number">lucky-number:</label>
+            <input type ="number" id="lucky-number" name="lucky-number" />
+            </div>
+            <div>
+              <label for="confirmation">confirmation:</label>
+              <input type ="checkbox" id="confirmation" name="confirmation" />
+              </div>
+
+            <div>
+              <input type="submit"/>
+            </div>
+
+
+            
+        </form>
+    </main>
+    
+</body>
+</html>

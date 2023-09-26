@@ -1,0 +1,53 @@
+html{
+    background-image: image('exercise\img\pexels-simon-berger-1323550.jpg');
+
+}
+body{
+    font-size: large;
+    font-style: oblique;
+    text-align: center;
+    align-items: center;
+ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(69, 177, 55);
+    background-blend-mode:soft-light;
+    color: white;
+}
+h2{
+    text-decoration: underline;
+}
+form {
+    background-color: lightgray;
+}
+#facts-section h2{ 
+    text-decoration: underline;
+}
+#quotes-section h2{
+    text-decoration: underline;
+}
+#quotes-section blockquote{
+    font-style: italic;
+}
+#link-section h2{
+    text-decoration: underline;
+}
+
+table{
+
+    border: 1px black;
+    border-collapse: collapse;
+    text-transform: capitalize;
+    background-color: aliceblue;
+    color:black;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+
+th{
+    text-align: center;
+    padding-inline-end: 10px;
+
+}
